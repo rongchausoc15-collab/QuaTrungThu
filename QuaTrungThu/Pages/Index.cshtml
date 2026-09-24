@@ -1,0 +1,178 @@
+﻿@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trung Thu dành cho Người Anh Yêu 🌕❤️</title>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+
+    <div class="scene">
+
+        <!-- LỜI CHÚC -->
+        <div class="wishes">
+            <span>❤️ Em ❤️</span>
+            <span>🌕 Trung Thu này anh muốn ở bên em 🌕</span>
+            <span>💕 Gửi người anh thương - Thạch Kim Yến 💕</span>
+            <span>✨ Mong em luôn vui vẻ và hạnh phúc ✨</span>
+            <span>💖 Cảm ơn em đã xuất hiện trong cuộc đời anh 💖</span>
+            <span>🌸 Chúc em một mùa Trung Thu thật ngọt ngào 🌸</span>
+            <span>🥰 Thương em nhiều hơn mỗi ngày 🥰</span>
+            <span>🌙 Dưới ánh trăng này, anh chỉ muốn nói: Anh yêu em ❤️</span>
+        </div>
+
+        <!-- ĐÈN LỒNG TRÁI -->
+        <div class="lantern lantern-left">
+            <div class="lantern-top"></div>
+
+            <div class="lantern-body">
+                <span>福</span>
+            </div>
+
+            <div class="lantern-bottom"></div>
+        </div>
+
+        <!-- ĐÈN LỒNG PHẢI -->
+        <div class="lantern lantern-right">
+            <div class="lantern-top"></div>
+
+            <div class="lantern-body">
+                <span>福</span>
+            </div>
+
+            <div class="lantern-bottom"></div>
+        </div>
+
+        <!-- SAO -->
+        <div class="stars">
+            <span>✦</span>
+            <span>✧</span>
+            <span>⋆</span>
+            <span>✦</span>
+            <span>✧</span>
+            <span>⋆</span>
+            <span>✦</span>
+            <span>✧</span>
+        </div>
+
+        <!-- TRÁI TIM -->
+        <div class="hearts">
+            <span>❤️</span>
+            <span>💕</span>
+            <span>💗</span>
+            <span>💖</span>
+            <span>❤️</span>
+        </div>
+
+        <!-- MẶT TRĂNG -->
+        <div class="moon">
+            <div class="moon-light"></div>
+        </div>
+
+        <!-- TIÊU ĐỀ -->
+        <div class="title">
+            <h1>🌕 TRUNG THU CỦA NGƯỜI ANH YÊU 🌕</h1>
+
+            <p>❤️ Gửi người anh thương nhất ❤️</p>
+        </div>
+
+        <!-- NÚT MỞ THƯ -->
+        <button id="openBtn">
+            💕 Mở lời chúc dành cho em
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         PHONG THƯ
+    ========================== -->
+
+    <div class="letter-overlay" id="letterOverlay">
+
+        <div class="letter">
+
+            <!-- NÚT ĐÓNG -->
+            <button class="close-letter" id="closeLetter">
+                ✕
+            </button>
+
+            <!-- PHONG BÌ -->
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="envelope-front">
+                    <div class="heart-seal">
+                        ❤️
+                    </div>
+                </div>
+
+                <div class="envelope-flap"></div>
+
+            </div>
+
+
+            <!-- NỘI DUNG THƯ -->
+            <div class="letter-content" id="letterContent">
+
+                <div class="letter-title">
+                    💌 Gửi Người Anh Yêu
+                </div>
+
+                <div class="letter-text">
+
+                    <p>
+                        Em à... ❤️
+                    </p>
+
+                    <p>
+                        Trung Thu này anh không có món quà gì quá lớn,
+                        chỉ muốn gửi đến em một chút yêu thương
+                        dưới ánh trăng này. 🌕
+                    </p>
+
+                    <p>
+                        Cảm ơn em vì đã xuất hiện trong cuộc đời anh.
+                        Mong rằng mỗi ngày của em đều có thật nhiều
+                        niềm vui và những điều tốt đẹp. 💕
+                    </p>
+
+                    <p>
+                        Nếu được ước một điều dưới ánh trăng Trung Thu,
+                        anh sẽ ước rằng chúng ta sẽ luôn có những
+                        khoảnh khắc thật đẹp bên nhau. ❤️
+                    </p>
+
+                    <p class="love-final">
+                        🌕 Chúc em một mùa Trung Thu
+                        thật ngọt ngào và hạnh phúc. 🌸
+                    </p>
+
+                    <p class="signature">
+                        ❤️ Thương em ❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <audio id="loveMusic" loop>
+        <source src="~/music/trungthu.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- JAVASCRIPT -->
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
