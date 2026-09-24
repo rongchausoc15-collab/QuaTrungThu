@@ -8,7 +8,7 @@ const letterOverlay = document.getElementById("letterOverlay");
 const envelope = document.getElementById("envelope");
 const letterContent = document.getElementById("letterContent");
 const closeLetter = document.getElementById("closeLetter");
-    document.getElementById("closeLetter");
+    
 
 
 // Bấm "Mở lời chúc"
