@@ -39,9 +39,9 @@ envelope.addEventListener("click", function () {
 });
 
 
-/* =========================
+/* 
    TẠO HIỆU ỨNG TÌNH YÊU
-========================= */
+ */
 
 function createLoveEffect() {
 
@@ -51,9 +51,9 @@ function createLoveEffect() {
     document.body.appendChild(effectContainer);
 
 
-    /* =========================
+    /* 
        TIM BAY
-    ========================= */
+     */
 
     const hearts = ["❤️", "💕", "💗", "💖", "💘"];
 
@@ -85,9 +85,9 @@ function createLoveEffect() {
     }
 
 
-    /* =========================
+    /* 
        CÁNH HOA RƠI
-    ========================= */
+     */
 
     const petals = ["🌸", "🌸", "🌺", "🌷"];
 
